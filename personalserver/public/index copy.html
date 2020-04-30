@@ -1,0 +1,45 @@
+<head>
+    
+  <!--Load jQuery and fullpage tags -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="\javascripts\jquery-1.11.0.min.js"></script>
+  
+  <!--Custom script -->
+  <script src='\javascripts\jquery-1.11.0.min.js'></script>
+  <script src='\javascripts\jquery.nav.js'></script>
+  <script src='\javascripts\custom.js'></script>
+
+  
+  <!--We will overide some default styles here -->
+  <link rel="stylesheet" href='\stylesheets\style.css'>
+  <!-- Adding fullpage.css is essential-->
+  <link rel="stylesheet" type="text/css" href="\stylesheets\fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="\stylesheets\normalize.min.css" />
+  
+  </head>
+  <body>
+      <div id="fullpage">
+          <div class="section"></div>
+          <div class="section"></div>
+          <div class="section"></div>
+          <div class="section"></div>
+        </div>
+        
+  <div id="fullpage">
+      <div class="section"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+      </div>
+    </div>
+    
+    <div class= ‘section fp-auto-height’></div>
+    <script>
+    $(document).ready(function(){
+
+      $('#fullpage').fullpage(); 
+    
+    });
+  </script>
+  </body>

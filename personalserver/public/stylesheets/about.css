@@ -1,0 +1,113 @@
+
+body {background-image: url("https://wallpaperaccess.com/download/aesthetic-computer-84248");background-attachment: fixed;background-size: cover;background-position: center;}
+
+.overlay{position: absolute;min-height: 100%;min-width: 100%;left: 0;top: 0;background: rgba(244, 244, 244, 0.699);}
+
+.description{position: absolute;top: 30%;margin: auto;padding: 2em;}
+
+.description h1{color:#F97300 ;}
+
+.description p{color:#666;font-size: 20px;width: 50%;line-height: 1.5;}
+
+.description button{border:1px  solid #F97300;background:#F97300;color:#fff;}
+
+.navbar{ background:rgba(9, 226, 197, 0.356);position: fixed;top: 0;width: 100%;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+.navbar-collapse{display: flex;justify-content: center;}
+
+.bg-dark{background-color:#343a40!important}
+
+.bg-primary{background-color:#007bff!important}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    padding: 1em;
+    position: relative;
+}
+
+h1{color:#F97300;margin: 2em;}
+
+img{height: 40%;width: 22.5%;border-radius: 50%}
+
+span{display: block;color: rgb(255, 255, 255);position: absolute;left: 115px;}
+
+.desc{padding: 2em;border-left:4px solid #10828C;}
+
+.desc h3{color: rgb(255, 255, 255);}
+
+.desc p{line-height:2;color:rgb(255, 255, 255);}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {display: inline-block;
+    font-size: 25px;
+    width: 8em;
+    height: 2em;
+    color: orange;
+    border-left: 0.08em solid;
+    position: relative;
+    margin-top: 0.8em;
+    cursor: pointer;
+}
+
+li::before,
+li::after
+ {
+    content: '';
+    position: absolute;
+    width: inherit;
+    border-left: inherit;
+    z-index: -1;
+}
+
+li::before {
+    height: 80%;
+    top: 10%;
+    left: calc(-0.15em - 0.08em * 2);
+    filter: brightness(0.8);
+}
+
+li::after {
+    height: 60%;
+    top: 20%;
+    left: calc(-0.15em * 2 - 0.08em * 3);
+    filter: brightness(0.6);
+}
+
+li span {
+    position: relative;
+    height: 120%;
+    top: -10%;
+    box-sizing: border-box;
+    border: 0.08em solid;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
+    transition: 0.3s;
+}
+
+li:hover span {
+    transform: translateX(0.15em);
+}
+
